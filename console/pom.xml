@@ -29,6 +29,12 @@
     <url>https://nacos.io</url>
     
     <dependencies>
+        <!--ocean 依赖-->
+        <dependency>
+            <groupId>com.oceanbase</groupId>
+            <artifactId>oceanbase-client</artifactId>
+            <version>2.4.3</version>
+        </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>nacos-config</artifactId>
